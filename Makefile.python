@@ -1,0 +1,13 @@
+# pylint (https://pylint.pycqa.org/en/latest/)
+pylint:
+	. .venv/bin/activate; python3 -m pylint *.py
+
+
+# black (https://black.readthedocs.io/en/stable/)
+black:
+	. .venv/bin/activate; python3 -m black *.py
+
+
+# isort (https://isort.readthedocs.io/en/latest/)
+isort:
+	. .venv/bin/activate; python3 -m isort *.py

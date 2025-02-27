@@ -1,0 +1,21 @@
+{
+    "[python]": {
+        "editor.codeActionsOnSave": {
+            "source.organizeImports": "explicit"
+        },
+        "editor.defaultFormatter": "ms-python.black-formatter",
+        "editor.formatOnSave": true
+    },
+    "black-formatter.interpreter": [".venv/bin/python3"],
+    "black-formatter.path": [".venv/bin/black"],
+    "debugpy.showPythonInlineValues": true,
+    "files.insertFinalNewline": true,
+    "files.trimFinalNewlines": true,
+    "files.trimTrailingWhitespace": true,
+    "isort.interpreter": [".venv/bin/python3"],
+    "isort.path": [".venv/bin/isort"],
+    "pylint.interpreter": [".venv/bin/python3"],
+    "pylint.path": [".venv/bin/pylint"],
+    "python.analysis.typeCheckingMode": "basic",
+    "python.defaultInterpreterPath": ".venv/bin/python3"
+}

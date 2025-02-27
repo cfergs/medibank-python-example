@@ -1,0 +1,20 @@
+[tool.pylint.messages_control]
+disable = ["R0801"]
+
+[tool.pylint.similarities]
+min-similarity-lines = 6
+
+[tool.pylint.format]
+max-line-length = 100
+
+[tool.pylint.report]
+output-format = "parseable"
+reports = "no"
+score = "yes"
+
+[tool.black]
+line-length = 100
+target-version = ['py312']
+
+[tool.isort]
+profile = "black"
